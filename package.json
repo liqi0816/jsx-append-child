@@ -1,0 +1,22 @@
+{
+  "name": "jsx-append-child",
+  "version": "0.5.0",
+  "description": "Turn JSX into DOM calls",
+  "main": "./src/index.js",
+  "scripts": {
+    "demo": "node demo.js"
+  },
+  "keywords": [
+    "babel-plugin"
+  ],
+  "author": "qli5",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-syntax-jsx": "^6.18.0"
+  },
+  "devDependencies": {
+    "babel-preset-react": "^6.24.1",
+    "jsdom": "latest"
+  }
+}
