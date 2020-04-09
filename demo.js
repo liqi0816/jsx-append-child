@@ -36,7 +36,7 @@ function templateC() {
 }
 `;
 
-const babel = require('babel-core');
+const babel = require('@babel/core');
 
 const { code, map } = babel.transform(jsx, {  plugins: ['./src/index'], sourceMaps: 'inline'});
 console.log(code);

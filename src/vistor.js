@@ -1,6 +1,5 @@
 const assert = require('assert');
-const esutils = require('esutils');
-const t = require('babel-types');
+const t = require('@babel/types');
 const JSXAppendChildBuilder = require('./builder');
 const propDict = require('./prop-dict');
 const attrPropDict = require('./attr-prop-dict');

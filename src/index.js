@@ -1,4 +1,4 @@
-const syntaxJSX = require("babel-plugin-syntax-jsx");
+const syntaxJSX = require("@babel/plugin-syntax-jsx").default;
 const JSXAppendChildVistor = require('./vistor');
 
 class JSXAppendChild {

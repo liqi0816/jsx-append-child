@@ -1,6 +1,6 @@
 {
-  "name": "jsx-append-child",
-  "version": "0.5.0",
+  "name": "@liqi0816/jsx-append-child",
+  "version": "0.6.0",
   "description": "Turn JSX into DOM calls",
   "main": "./src/index.js",
   "scripts": {
@@ -9,14 +9,26 @@
   "keywords": [
     "babel-plugin"
   ],
-  "author": "qli5",
+  "author": "LI, Qi <goodlq11@gmail.com>",
   "license": "MPL-2.0",
   "dependencies": {
-    "babel-core": "^6.26.0",
-    "babel-plugin-syntax-jsx": "^6.18.0"
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-syntax-jsx": "^7.8.3",
+    "@babel/types": "^7.9.5"
   },
   "devDependencies": {
-    "babel-preset-react": "^6.24.1",
-    "jsdom": "latest"
-  }
+    "@babel/preset-react": "^7.9.4",
+    "jsdom": "^16.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liqi0816/jsx-append-child.git"
+  },
+  "bugs": {
+    "url": "https://github.com/liqi0816/jsx-append-child/issues"
+  },
+  "homepage": "https://github.com/liqi0816/jsx-append-child#readme",
+  "files": [
+    "/src"
+  ]
 }
