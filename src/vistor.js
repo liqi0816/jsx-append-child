@@ -244,7 +244,7 @@ class JSXAppendChildVistor {
                 t.inherits(this.builder.constCreateElement(id, tagName, file), openingElement.node.name)
             );
         }
-        openingElement.scope.references[id] = true;
+        openingElement.scope.getProgramParent().references[id] = true;
 
         // 4. extract and transpile attributes
         for (const attr of openingElement.node.attributes) {
